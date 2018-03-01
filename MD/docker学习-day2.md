@@ -75,6 +75,15 @@
 
 	# options 选项
 	-i  交互模式
+	
+> `查看容器：`
+
+	# 查看运行容器
+	docker ps
+	# 查看所有容器
+	docker ps -a
+	# 查看最后x个容器
+	docker ps -n x
 
 > `终止容器：`**docker stop CONTAINER**
 
