@@ -66,6 +66,7 @@
 	--restart 退出重启[no|failure|always]    
 	--rm   容器退出时自动删除容器
 	-d,--detach 后台运行并打印容器ID
+	--privileged 特权模式，对宿主机有root访问权限，存在一定安全风险
 
 	# 实例: 
 	docker run -i -t centos bash
